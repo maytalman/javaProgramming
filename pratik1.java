@@ -11,7 +11,7 @@ public class pratik1 {
 		System.out.println("mat notunuz: ");
 		mat = input.nextInt();
 		
-		System.out.println("turkçe notunuz: ");
+		System.out.println("turkÃ§e notunuz: ");
 		turkce = input.nextInt();
 		
 		System.out.println("fizik notunuz: ");
@@ -24,14 +24,10 @@ public class pratik1 {
 		kimya = input.nextInt();
 		
 		double avg = (mat+ turkce + fizik+ tarih+ kimya) / 5;
-		System.out.println("Ortalamanız : "+ avg);
+		System.out.println("OrtalamanÃ½z : "+ avg);
 		
 		boolean sonuc = avg>= 60;
-		if(sonuc == true)
-			System.out.println("geçti");
-		
-		else
-			System.out.println("kaldı");
+		System.out.println(sonuc ? "geÃ§ti": "kaldÄ±");
 		
 	}
 
