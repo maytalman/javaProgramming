@@ -1,7 +1,8 @@
+
 package Giris2;
 
 import java.util.Scanner;
-//Kullanıcı adı ve şifre girişi, yeni şifre oluşturma kodu
+//KullanÃ½cÃ½ adÃ½ ve Ã¾ifre giriÃ¾i, yeni Ã¾ifre oluÃ¾turma kodu
 public class pratik2 {
 
 	public static void main(String[] args) {
@@ -10,26 +11,26 @@ public class pratik2 {
 		Scanner inp = new Scanner(System.in);
 		int select;
 		String userName,password,newPassword;
-		System.out.println("Kullanıcı Adı: ");
+		System.out.println("KullanÃ½cÃ½ AdÃ½: ");
 		userName =input.nextLine();
 		
-		System.out.println("Şifre: ");
+		System.out.println("Ãifre: ");
 		password =input.nextLine();
 		
 		if(userName.equals("patika") && password.equals("1234")) {
-			System.out.println("Giriş yaptınız!");
+			System.out.println("GiriÃ¾ yaptÃ½nÃ½z!");
 		}
 		else {
-			System.out.println("Giriş başarısız şifrenizi sıfırlamak isterseniz 1'i tuşlayınız.");
+			System.out.println("GiriÃ¾ baÃ¾arÃ½sÃ½z Ã¾ifrenizi sÃ½fÃ½rlamak isterseniz 1'i tuÃ¾layÃ½nÃ½z.");
 			select = input.nextInt();
 			if(select == 1) {
-				System.out.println("Yeni şifreniz : ");
+				System.out.println("Yeni Ã¾ifreniz : ");
 				newPassword = inp.nextLine();
 				
 				if(newPassword.equals("1234"))
-					System.out.println("Şifreniz eskisiyle aynı olamaz!");
+					System.out.println("Ãifreniz eskisiyle aynÃ½ olamaz!");
 				else
-					System.out.println("Şifreniz değiştirildi!");
+					System.out.println("Ãifreniz deÃ°iÃ¾tirildi!");
 			}
 		}
 	}
