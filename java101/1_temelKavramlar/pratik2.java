@@ -3,7 +3,7 @@ package Giris;
 import java.util.Scanner;
 
 public class pratik2 {
-
+//KDV tutarı hesaplama kodu
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int tutar=0;
