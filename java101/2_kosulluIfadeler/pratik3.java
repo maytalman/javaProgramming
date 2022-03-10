@@ -11,7 +11,7 @@ public class pratik3 {
 		int turkce,mat,fizik,kimya,biyo;
 		double avg;
 		
-		System.out.println("T�rk蔒 notunuzu girin : ");
+		System.out.println("T羹rk癟e notunuzu girin : ");
 		turkce = input.nextInt();
 
 		System.out.println("Matematik notunuzu girin : ");
@@ -27,7 +27,11 @@ public class pratik3 {
 		biyo = input.nextInt();
 		
 		avg =(mat+ turkce+ fizik+ kimya+ biyo)/5;
-	    System.out.println("ortama : "+avg);
+	    	System.out.println("ortama : "+avg);
+		if(avg < 55) {
+	    	System.out.println("S覺n覺f覺 ge癟emediniz !");
+	    }
+	   	else System.out.println("s覺n覺f覺 ge癟tiniz !");
 	}
 
 }
