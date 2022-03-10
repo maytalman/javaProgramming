@@ -1,3 +1,3 @@
-# kodluyoruzjava
+# kodluyoruz.java
 
-patika.dev ile java çalışırken yazdığım egzersiz yaptığım küçük program kodları
+patika.dev ile javada pratik program kodları
