@@ -1,7 +1,7 @@
 package Giris3;
 
 import java.util.*;
-
+//Kullanıcı tek sayı girene kadar sayı alan ve alınan sayılardan 2'ye ve 4'e bölünenleri toplayan program
 public class pratik2 {
 
 	public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class pratik2 {
 		Scanner input = new Scanner(System.in);
 		
 		do {
-			System.out.println("Say� giriniz: ");
+			System.out.println("Sayý giriniz: ");
 			n = input.nextInt();
 			if(n%2==0 && n%4 ==0 ) {
 				sum+=n;
