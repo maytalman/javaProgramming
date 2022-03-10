@@ -1,7 +1,7 @@
 package Giris3;
 
 import java.util.Scanner;
-
+//Girilen sayıya kadar olan sayılar arasında üçe ve dörde bölünebilen sayıların ortalamasını hesaplama
 public class pratik1 {
 
 	public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class pratik1 {
 		int number,sum=0,count=0;
 		double avg;
 		
-		System.out.println("Say� giriniz : ");
+		System.out.println("Sayý giriniz : ");
 		number = input.nextInt();
 		
 		for(int i=0;i<number; i++) {
@@ -22,7 +22,7 @@ public class pratik1 {
 			}
 		}
 		avg = sum/count;
-		System.out.println("��e ve D�rde B�l�nen say�lar�n ortalamas�: "+ avg);
+		System.out.println("Üçe ve Dörde Bölünen sayýlarýn ortalamasý: "+ avg);
 	}
 
 }
