@@ -2,18 +2,18 @@ package Giris2;
 
 import java.util.*;
 public class pratik6 {
-
+//BurÃ§ Bulan kod
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		int month, day;
-		System.out.println("Doğum ayınızı girin:");
+		System.out.println("DoÄŸum ayÄ±nÄ±zÄ± girin:");
 		month = input.nextInt();
-		System.out.println("Doğum gününüzü girin:");
+		System.out.println("DoÄŸum gÃ¼nÃ¼nÃ¼zÃ¼ girin:");
 		day = input.nextInt();
 		switch(month) {
 		case 1 : 
-			if(day >=1 && day <=21) System.out.println("OĞLAK ");
+			if(day >=1 && day <=21) System.out.println("OÄLAK ");
 			else System.out.println("KOVA");
 			break;
 		case 2 : 
@@ -23,34 +23,34 @@ public class pratik6 {
 			
 		case 3 :
 			if(day >=1 && day <=20) System.out.println("BALIK ");
-			else System.out.println("KOÇ");
+			else System.out.println("KOÃ‡");
 			break;
 		case 4 : 
-			if(day >=1 && day <=20) System.out.println("KOÇ ");
-			else System.out.println("BOĞA");
+			if(day >=1 && day <=20) System.out.println("KOÃ‡ ");
+			else System.out.println("BOÄA");
 			break;
 		case 5 : 
-			if(day >=1 && day <=21) System.out.println("BOĞA ");
-			else System.out.println("İKİZLER");
+			if(day >=1 && day <=21) System.out.println("BOÄA ");
+			else System.out.println("Ä°KÄ°ZLER");
 			break;
 		case 6 : 
-			if(day >=1 && day <=22) System.out.println("İKİZLER ");
-			else System.out.println("YENGEÇ");
+			if(day >=1 && day <=22) System.out.println("Ä°KÄ°ZLER ");
+			else System.out.println("YENGEÃ‡");
 			break;
 		case 7 : 
-			if(day >=1 && day <=20) System.out.println("YENGEÇ ");
+			if(day >=1 && day <=20) System.out.println("YENGEÃ‡ ");
 			else System.out.println("ASLAN");
 			break;
 		case 8 : 
 			if(day >=1 && day <=22) System.out.println("ASLAN ");
-			else System.out.println("BAŞAK");
+			else System.out.println("BAÅAK");
 			break;
 		case 9 : 
-			if(day >=1 && day <=22) System.out.println("BAŞAK ");
-			else System.out.println("TERAZİ");
+			if(day >=1 && day <=22) System.out.println("BAÅAK ");
+			else System.out.println("TERAZÄ°");
 			break;
 		case 10 : 
-			if(day >=1 && day <=22) System.out.println("TERAZİ ");
+			if(day >=1 && day <=22) System.out.println("TERAZÄ° ");
 			else System.out.println("AKREP");
 			break;
 		case 11 : 
@@ -59,7 +59,7 @@ public class pratik6 {
 			break;
 		case 12 : 
 			if(day >=1 && day <=21) System.out.println("YAY ");
-			else System.out.println("OĞLAK");
+			else System.out.println("OÄLAK");
 			break;
 	}
 	}
