@@ -2,21 +2,21 @@ package Giris2;
 
 import java.util.*;
 
-//Artık Yıl Hesaplama
-public class artıkYilHesaplama {
+//ArtÃ½k YÃ½l Hesaplama Kodu
+public class artÃ½kYilHesaplama {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		int yil;
-		System.out.println("Yıl giriniz: ");
+		System.out.println("YÃ½l giriniz: ");
 		yil = input.nextInt();
 		
 		if(yil %4 ==0) {
-			System.out.println("Artık yıldır!");
+			System.out.println("ArtÃ½k yÃ½ldÃ½r!");
 		}
-		else if(yil%400 ==0) System.out.println("Artık yıldır!");
-		else System.out.println("Artık bir yıl değildir!");
+		else if(yil%400 ==0) System.out.println("ArtÃ½k yÃ½ldÃ½r!");
+		else System.out.println("ArtÃ½k bir yÃ½l deÃ°ildir!");
 		
 		
 	}
