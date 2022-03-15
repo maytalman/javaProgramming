@@ -1,5 +1,5 @@
 package Giris3;
-
+//Sayının basamaklarının toplamını bulan program
 import java.util.*;
 public class pratik6 {
 
