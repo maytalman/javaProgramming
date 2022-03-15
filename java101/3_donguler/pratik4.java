@@ -3,7 +3,7 @@ package Giris3;
 import java.util.*;
 
 public class pratik4 {
-
+//Kombinasyon Hesaplama programı
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
