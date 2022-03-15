@@ -2,14 +2,14 @@ package Giris3;
 
 import java.util.*;
 public class pratik5 {
-
+//Ãœs hesaplayan program
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int taban,us,sonuc=1;
 		Scanner input = new Scanner(System.in);
-		System.out.println("taban sayıyı giriniz: ");
+		System.out.println("taban sayÃ½yÃ½ giriniz: ");
 		taban = input.nextInt();
-		System.out.println("üs sayıyı giriniz: ");
+		System.out.println("Ã¼s sayÃ½yÃ½ giriniz: ");
 		us =input.nextInt();
 		
 		int i=0;
