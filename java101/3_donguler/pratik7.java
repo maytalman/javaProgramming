@@ -2,7 +2,7 @@ package Giris3;
 
 import java.util.*;
 public class pratik7 {
-
+//Harmonik SayÄ± Bulan Program
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -10,7 +10,7 @@ public class pratik7 {
 		double start=0.0;
 		Scanner input=new Scanner(System.in);
 		
-		System.out.println("n sayısını girin: ");
+		System.out.println("n sayÃ½sÃ½nÃ½ girin: ");
 		n = input.nextInt();
 		
 		for(int i=1;i<=n;i++) {
