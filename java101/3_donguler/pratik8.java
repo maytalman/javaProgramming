@@ -2,11 +2,12 @@ package Giris3;
 
 import java.util.*;
 public class pratik8 {
+	//Elmas deseni çizen program
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-        System.out.println("Bir Say� Giriniz :");
+        System.out.println("Bir Sayý Giriniz :");
         int n = input.nextInt();
         
         int yariyukseklik=(int)(n/2)+1;
