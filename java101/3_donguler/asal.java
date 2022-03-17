@@ -1,6 +1,7 @@
 package Giris3;
 
 public class asal {
+	//1-100 Arası asal sayıları bulan program
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
