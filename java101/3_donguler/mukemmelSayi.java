@@ -2,7 +2,7 @@ package Giris3;
 
 import java.util.*;
 public class mukemmelSayi {
-
+//Mükemmel sayı kontrolü yapan program 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num,sum=0;
@@ -15,8 +15,8 @@ public class mukemmelSayi {
 				
 		}
 		if(sum== num)
-		System.out.println(num+"  m�kemmel sayidir ");
-		else System.out.println(num+"  m�kemmel sayi de�ildir. ");
+		System.out.println(num+"  mükemmel sayidir ");
+		else System.out.println(num+"  mükemmel sayi deðildir. ");
 	}
 
 }
