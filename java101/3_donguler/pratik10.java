@@ -2,13 +2,13 @@ package Giris3;
 
 import java.util.*;
 public class pratik10 {
-
+//Ä°ki sayÄ±nÄ±n  EBOB-EKOK deÄŸerini bulan program
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		//EKOK = (n1*n2) / EBOB
 		int num1,num2,count=0,i=1,minNum,ebob=0,ekok=0;
-		System.out.println("Birinci ve ikinci sayıyı girin : ");
+		System.out.println("Birinci ve ikinci sayÃ½yÃ½ girin : ");
 		num1=input.nextInt();
 		num2=input.nextInt();
 		
@@ -22,8 +22,8 @@ public class pratik10 {
 			i++;
 		}
 		ekok = (num1*num2) /ebob;
-		System.out.println("İki sayının EBOB değeri: "+ebob);
-		System.out.println("İki sayının EKOK değeri: "+ekok);
+		System.out.println("Ãki sayÃ½nÃ½n EBOB deÃ°eri: "+ebob);
+		System.out.println("Ãki sayÃ½nÃ½n EKOK deÃ°eri: "+ekok);
 
 	}
 
