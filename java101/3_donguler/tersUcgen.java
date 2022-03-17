@@ -1,7 +1,7 @@
 package Giris3;
 
 public class tersUcgen {
-
+//10 Basamaklı ters üçgen çizdiren program kodu
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
