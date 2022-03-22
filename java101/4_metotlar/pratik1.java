@@ -1,6 +1,6 @@
 
 package Giris4;
-
+//Palindrom sayÄ±larÄ± kontrol eden program kodu
 import java.util.*;
 public class pratik1 {//2563
 	static boolean isPalindrom(int Num) {
@@ -18,13 +18,13 @@ public class pratik1 {//2563
 		// TODO Auto-generated method stub
 		int Num;
 		Scanner input = new Scanner(System.in);
-		System.out.println("Palindromluk kontrolü yapacağınız sayıyı giriniz: ");
+		System.out.println("Palindromluk kontrolÃ¼ yapacaÃ°Ã½nÃ½z sayÃ½yÃ½ giriniz: ");
 		Num = input.nextInt();
 		
 		if(true == isPalindrom(Num)) {
 			System.out.println("Palindromdur");
 		}
-		else System.out.println("Palindrom değildir.");
+		else System.out.println("Palindrom deÃ°ildir.");
 
 	}
 
