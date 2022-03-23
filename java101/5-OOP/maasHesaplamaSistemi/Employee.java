@@ -47,7 +47,7 @@ public class Employee {
 	}
 	
 	public double totalSalary() {
-		return this.salary+ tax()+ bonus();
+		return this.salary- tax()+ bonus();
 	}
 	
 	public void printInfo() {
