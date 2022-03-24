@@ -1,7 +1,7 @@
 package Giris5;
 
 public class pratik4 {
-//Dizide tekrar eden sayıları bulan kod
+//Dizide tekrar eden sayÄ±larÄ± bulan kod
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int [] arr = {56, 34, 1,9, 8, 101, -2,8, -33,8,9,34,8};
