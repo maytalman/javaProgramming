@@ -1,5 +1,5 @@
 package Giris5;
-
+//B harfi çizen pprogram
 public class pratik3 {
 
 	public static void main(String[] args) {
