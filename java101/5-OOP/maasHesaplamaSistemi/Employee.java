@@ -1,5 +1,5 @@
 package maasHesaplamaSistemi;
-
+//Ã‡alÄ±ÅŸan sÄ±nÄ±fÄ±
 public class Employee {
 	String name;
 	double salary;
@@ -53,14 +53,14 @@ public class Employee {
 	public void printInfo() {
 		
 		System.out.println("********************");
-		System.out.println("Adı:\t"+this.name);
-		System.out.println("Maaşı:\t"+this.salary);
-		System.out.println("Çalışma Saati:\t"+this.workHours);
-		System.out.println("Başlangıç Yılı:\t"+this.hireYear);
+		System.out.println("AdÃ½:\t"+this.name);
+		System.out.println("MaaÃ¾Ã½:\t"+this.salary);
+		System.out.println("Ã‡alÃ½Ã¾ma Saati:\t"+this.workHours);
+		System.out.println("BaÃ¾langÃ½Ã§ YÃ½lÃ½:\t"+this.hireYear);
 		System.out.println("Vergi:\t"+raiseSalary());
 		System.out.println("Bonus:\t"+bonus());
-		System.out.println("Maaş Artışı:\t"+tax());
-		System.out.println("Vergi ve Bonuslar ile birlikte maaş:\t"+totalSalary());
-		System.out.println("Toplam Maaş:\t"+(totalSalary()+ raiseSalary()));
+		System.out.println("MaaÃ¾ ArtÃ½Ã¾Ã½:\t"+tax());
+		System.out.println("Vergi ve Bonuslar ile birlikte maaÃ¾:\t"+totalSalary());
+		System.out.println("Toplam MaaÃ¾:\t"+(totalSalary()+ raiseSalary()));
 	}
 }
